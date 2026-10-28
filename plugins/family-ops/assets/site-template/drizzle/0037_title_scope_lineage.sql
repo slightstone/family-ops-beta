@@ -1,0 +1,7 @@
+ALTER TABLE kids_chat_scan_pages ADD COLUMN excluded_count INTEGER NOT NULL DEFAULT 0 CHECK(excluded_count>=0 AND excluded_count<=raw_count);
+--> statement-breakpoint
+DROP TRIGGER kids_source_receipt_namespace;
+--> statement-breakpoint
+CREATE TRIGGER kids_source_receipt_namespace BEFORE INSERT ON kids_operation_receipts
+WHEN EXISTS(SELECT 1 FROM kids_source_proposals p WHERE p.owner_user_id=NEW.owner_user_id AND (p.proposal_id=NEW.operation_id OR p.stage_operation_id=NEW.operation_id OR p.effect_operation_id=NEW.operation_id AND (p.status<>'approved' OR p.workspace_id<>NEW.workspace_id OR json_extract(p.payload_json,'$.kind') NOT IN ('board','prepare','removal','titles') OR p.effect_hash IS NOT NEW.body_hash OR (json_extract(p.payload_json,'$.kind')='titles' AND CASE WHEN json_valid(NEW.source_authority) THEN (json_extract(NEW.source_authority,'$.kind') IS NOT 'kids-title-page-v1' OR json_extract(NEW.source_authority,'$.bindingId') IS NOT json_extract(p.payload_json,'$.command.bindingId') OR json_extract(NEW.source_authority,'$.scopeApproval.surface') IS NOT 'assistant' OR json_extract(NEW.source_authority,'$.scopeApproval.proposalId') IS NOT p.proposal_id OR json_extract(NEW.source_authority,'$.scopeApproval.proposalHash') IS NOT p.proposal_hash OR json_extract(NEW.source_authority,'$.scopeApproval.effectOperationId') IS NOT p.effect_operation_id OR json_extract(NEW.source_authority,'$.scopeApproval.effectHash') IS NOT p.effect_hash) ELSE 1 END))))
+BEGIN SELECT RAISE(ABORT,'KIDS_SOURCE_OPERATION_RESERVED'); END;

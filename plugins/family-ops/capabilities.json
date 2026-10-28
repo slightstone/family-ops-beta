@@ -1,0 +1,59 @@
+{
+  "acceptedLocal": {
+    "boundary": "compiled HTTP/MCP/D1 plus fictional browser workflow, stored-state and independent source/visual review",
+    "realCustomerOrNativeInstallation": false,
+    "scope": "I23 C1-C6 manual organizer and manual-only adult access",
+    "sourceRevision": "852398e63fcf302d505bd5b4342ff55e9fbda29e"
+  },
+  "architecture": {
+    "bundledMcpServer": false,
+    "centralFamilyDataHost": false,
+    "customerSiteMcpGeneratedSeparately": true,
+    "localMessagingDaemonRequired": false,
+    "operatorAiApi": false
+  },
+  "artifactKind": "public-plugin-candidate",
+  "dataOwnership": {
+    "ai": "customer native assistant",
+    "board": "customer private Site D1",
+    "optionalMessagingHistory": "customer Unipile V2 account"
+  },
+  "openGates": [
+    "publisher eligibility and directory approval",
+    "product privacy/support notices",
+    "independent buyer install and exact native connector availability",
+    "secure native optional host setup",
+    "real provider/source outcome",
+    "phone/Claude/cloud and computers-off execution",
+    "paid eligibility/terms"
+  ],
+  "optionalDependencies": {
+    "email": "not implemented",
+    "googleCalendar": "customer native Google app and exact read/write review",
+    "mashov": "not implemented",
+    "whatsapp": "customer Unipile V2 credentials, terms/cost and broader initial-sync consent; exact source scope approval"
+  },
+  "paymentEnforced": false,
+  "pluginIdentity": {
+    "name": "family-ops",
+    "version": "0.2.0"
+  },
+  "readyForDistribution": false,
+  "requiresLocalExecutor": true,
+  "sharing": {
+    "defaultRole": "viewer",
+    "expiryDays": 7,
+    "maxAdultsIncludingOwner": 5,
+    "maxPendingInvitations": 5,
+    "requires": [
+      "valid customer-owned installation",
+      "FAMILY_OPS_KIDS_SHARING enabled",
+      "customer-controlled protected invitation-key setup",
+      "separate private Site viewer access",
+      "intended-recipient authenticated acceptance"
+    ],
+    "scope": "whole manual organizer only; source-derived contexts/settings excluded"
+  },
+  "sourceRevision": "852398e63fcf302d505bd5b4342ff55e9fbda29e",
+  "submissionReady": false
+}

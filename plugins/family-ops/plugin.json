@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Manual-first family organization using your own native assistant and private Site. Optional connectors require separate setup and consent.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Organize parent-entered family items",
+          "Track manual activities and completion",
+          "Guide optional adult family access"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "Set up my private Family board. Check prerequisites before asking about my family."
+        ],
+        "developerName": "Family Ops",
+        "displayName": "Family Ops",
+        "logo": "./assets/icon.svg",
+        "longDescription": "Use your own assistant and private Site to organize homework, tests, reminders, preparation and activities. Shared manual-board access is optional and requires owner setup and adult acceptance. WhatsApp and Calendar are optional with separate permissions and provider prerequisites. Requires supported desktop local execution and Sites capabilities; independent buyer installation, cloud and other hosts remain unverified.",
+        "shortDescription": "A private organizer for family plans and tasks"
+      },
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "requires_local_executor": true
+    }
+  },
+  "keywords": [
+    "family",
+    "organizer",
+    "homework",
+    "tasks",
+    "chugim"
+  ],
+  "name": "family-ops",
+  "version": "0.2.0"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "family-ops-assisted-beta",
+  "interface": {
+    "displayName": "Family Ops assisted beta"
+  },
+  "plugins": [
+    {
+      "name": "family-ops",
+      "source": {
+        "source": "local",
+        "path": "./plugins/family-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

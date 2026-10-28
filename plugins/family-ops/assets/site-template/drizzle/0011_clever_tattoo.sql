@@ -1,0 +1,1 @@
+ALTER TABLE `kids_operation_receipts` ADD `source_authority` text;

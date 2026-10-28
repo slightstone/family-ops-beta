@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS `kids_google_effect_output` ON `kids_google_effects` (`owner_user_id`,`workspace_id`,`link_id`,`calendar_id`,`provider_event_id`) WHERE "kids_google_effects"."status"='linked';
