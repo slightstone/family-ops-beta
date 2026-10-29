@@ -1,6 +1,6 @@
 {
   "name": "family-ops",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "files": [
     {
       "path": "assets/icon.svg",
@@ -224,8 +224,8 @@
     },
     {
       "path": "assets/site-template/app/kids/calendar-requests.tsx",
-      "bytes": 23702,
-      "sha256": "5ceb3fb083b8ea181520c6374f31456e27920aa2e2d9a8cc2f711d3e565d8f86"
+      "bytes": 23704,
+      "sha256": "01f57f076eef8c070985778cdaebc82c29341da4ecf6772e4282051a7a3c6e5c"
     },
     {
       "path": "assets/site-template/app/kids/chat-catalog-picker.tsx",
@@ -264,8 +264,8 @@
     },
     {
       "path": "assets/site-template/app/kids/google-calendar.tsx",
-      "bytes": 29619,
-      "sha256": "aa33eccfbb12f9cd5dcbb8ba8401beee5a22a87ad6d95b64e8c627707012cff0"
+      "bytes": 29617,
+      "sha256": "a90f48beb88a94233c3592b2ee8486ffb918a53b8b0878e17ffa0116bfcd4a6c"
     },
     {
       "path": "assets/site-template/app/kids/hosted-removal.tsx",
@@ -1184,13 +1184,13 @@
     },
     {
       "path": "assets/site-template/lib/kids-google-effect-store.ts",
-      "bytes": 29399,
-      "sha256": "d21764cd652fcdfa006127482b9851571f05558c4191f5576a2b06a5007358d4"
+      "bytes": 30332,
+      "sha256": "8a05f1410b191ddc2494529af7e02f77c105f7f3a47f706010a8c7f7583a4bb2"
     },
     {
       "path": "assets/site-template/lib/kids-google-effects.ts",
-      "bytes": 11858,
-      "sha256": "a1c77d9b14a11dbada31f8afdaad7827ccd5163d75ec014f590c66075bca181b"
+      "bytes": 12041,
+      "sha256": "6d106188b47703df522c67ce408d8bb20c8a3304edd8250c0997e998efa580f8"
     },
     {
       "path": "assets/site-template/lib/kids-google-output.ts",
@@ -1199,13 +1199,13 @@
     },
     {
       "path": "assets/site-template/lib/kids-google-store.ts",
-      "bytes": 39220,
-      "sha256": "283535933c4d6f14b7f08d3939d173e52a75e36b7aa373322601fae8e2a3cbdf"
+      "bytes": 39215,
+      "sha256": "6979281c77443fb1adcd93ea295c23adfa31ed4941211a33234299dcbb19ab18"
     },
     {
       "path": "assets/site-template/lib/kids-google-tools.ts",
-      "bytes": 9004,
-      "sha256": "d4ec475d8dac25492d1d086a2cb1aa231724ce9931bf23e13a43d642e7a05049"
+      "bytes": 10231,
+      "sha256": "4861c5a8817634c9097fc86779744b081b839a06fbe1510d744713a6010f39ef"
     },
     {
       "path": "assets/site-template/lib/kids-google.ts",
@@ -1644,18 +1644,18 @@
     },
     {
       "path": "capabilities.json",
-      "bytes": 2157,
-      "sha256": "84c7f622168ae4394c015284e7f4caceba82a771f110d1051188a33990360e56"
+      "bytes": 2315,
+      "sha256": "2918b3e0461e9a4b41eaed4e35cba2e9bc7a0a569e10c17a52ff5e71957c7fea"
     },
     {
       "path": "package-manifest.json",
-      "bytes": 62260,
-      "sha256": "7cb505ead06dc3558281d47a03a4ecd13941613758539e75aa9d1a139db93391"
+      "bytes": 62261,
+      "sha256": "06d81393ba9065f5ca02da023d52f30ec4dc0af05cc9c69485f3d1f2634fd3bd"
     },
     {
       "path": "plugin.json",
-      "bytes": 1589,
-      "sha256": "87ea340b7cb0a4ca40b50d1a94b98b4f0415f4a77528ccbbf75207c775230553"
+      "bytes": 1696,
+      "sha256": "96ffc02daa33a4d7dc4b500953e0985dbd5fcf9b490dd5c6559aad6f29679c18"
     },
     {
       "path": "scripts/prepare-template.py",
@@ -1664,8 +1664,8 @@
     },
     {
       "path": "skills/kids-calendar/SKILL.md",
-      "bytes": 4377,
-      "sha256": "5e388aa7057302651697f954c22ca4287c376abdf5892d018a464da077ac048f"
+      "bytes": 4886,
+      "sha256": "61a02a9ee80e496cd2ee95c2dde44700f824ca4ffbb651008313bf5c9895c977"
     },
     {
       "path": "skills/kids-updates/SKILL.md",
@@ -1674,8 +1674,8 @@
     },
     {
       "path": "skills/organizer/SKILL.md",
-      "bytes": 3145,
-      "sha256": "790160c1b59045b63ffb2bf7c1df47b42b407074c9001e913c50f55c09f8bb65"
+      "bytes": 4673,
+      "sha256": "8a9f86a6bc81063631c981d3808ea854dfcc1bfccd029fd093c9b8c39ae7a232"
     },
     {
       "path": "skills/organizer/references/commands.md",
@@ -1709,8 +1709,8 @@
     },
     {
       "path": "source-manifest.json",
-      "bytes": 54690,
-      "sha256": "2ee7b97e96d160284c30b9d4eff4ac79c5ac6d7d862bf292e46479977ead5102"
+      "bytes": 55087,
+      "sha256": "b9a78ad56c148873887400ef2d1f84d5d56c9d194a96c0c33677b482d53108c5"
     }
   ]
 }

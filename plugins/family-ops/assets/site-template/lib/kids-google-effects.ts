@@ -17,6 +17,8 @@ export const effectProviderSchema=z.strictObject({event_id:providerId,status:z.e
 const stageFields={parent_requested:z.literal(true),source_kind:z.enum(['context','google']),source_id:uuid,target_grant_id:uuid,mode:z.enum(['create','update']),previous_effect_id:uuid.nullable(),payload:effectPayloadSchema,provider_before:effectProviderSchema.nullable()};
 const stagePair=(a:{mode:string;previous_effect_id:string|null;provider_before:unknown})=>a.mode==='create'?a.previous_effect_id===null&&a.provider_before===null:!!a.previous_effect_id&&!!a.provider_before;
 export const effectStageSchema=z.strictObject({...base,...stageFields}).refine(stagePair);
+export const effectApproveSchema=z.strictObject({...effectBase,approval_phrase:z.string().max(100)});
+export const effectApprovalPhrase=(id:string)=>`Approve Calendar request ${id}`;
 export const effectClaimSchema=z.strictObject({...effectBase,provider_before:effectProviderSchema.nullable()});
 export const effectCheckSchema=z.strictObject(effectBase);
 export const effectResultSchema=z.strictObject({...effectBase,claim_id:uuid,read_id:uuid,read_hash:googleHash,link_id:providerId,calendar_id:providerId,search_complete:z.boolean(),candidates:z.array(effectProviderSchema).max(5).refine(a=>new Set(a.map(r=>r.event_id)).size===a.length),gaps:z.array(z.string().min(1).max(200)).max(5)});

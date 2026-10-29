@@ -6,6 +6,6 @@ This is a pre-store assisted beta, not a public-directory approval. The manual o
 
 Use the reviewed setup page and the exact pinned commit supplied by the publisher. The assistant handles marketplace registration, payload checks and setup; the adult reviews permissions. No password, API key or private-board export belongs in a chat or issue. Do not replace a conflicting existing installation.
 
-The payload under plugins/family-ops is the unchanged reviewed Family Ops 0.2.0 candidate. release-payload.json inventories its 342 files; tools/verify-payload.py checks an exact explicitly supplied directory without changing it. The read-only verifier does not prove installation, account ownership, Site capability or source/cloud acceptance.
+The payload under plugins/family-ops is the local Family Ops 0.3.0 candidate: the accepted manual organizer plus six already-accepted Calendar runtime updates, retaining the existing relative-endpoint transform and saved-question/native-approval guidance. It has not been distributed or installed as 0.3.0. release-payload.json inventories its 342 files; tools/verify-payload.py checks an exact explicitly supplied directory without changing it. The read-only verifier does not prove installation, account ownership, Site capability or source/cloud acceptance.
 
 Family Ops is a product in development by SL3 LLC. Support: slightstone@gmail.com.

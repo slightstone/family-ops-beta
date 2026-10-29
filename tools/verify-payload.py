@@ -66,9 +66,9 @@ def verify(manifest, plugin_root, expected_digest):
     if any(actual[name] != entry["sha256"] for name, entry in expected.items()):
         raise ValueError("payload file hash mismatch")
     plugin = json.loads((root / "plugin.json").read_text())
-    if (plugin.get("name"), plugin.get("version")) != ("family-ops", "0.2.0"):
+    if (plugin.get("name"), plugin.get("version")) != ("family-ops", "0.3.0"):
         raise ValueError("unexpected plugin identity")
-    return {"verified": True, "files": len(actual), "name": "family-ops", "version": "0.2.0", "mapSha256": expected_digest}
+    return {"verified": True, "files": len(actual), "name": "family-ops", "version": "0.3.0", "mapSha256": expected_digest}
 
 
 if __name__ == "__main__":

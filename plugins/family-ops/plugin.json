@@ -7,12 +7,14 @@
         "capabilities": [
           "Organize parent-entered family items",
           "Track manual activities and completion",
-          "Guide optional adult family access"
+          "Guide optional adult family access",
+          "Answer questions from the saved board"
         ],
         "category": "Productivity",
         "composerIcon": "./assets/icon.svg",
         "defaultPrompt": [
-          "Set up my private Family board. Check prerequisites before asking about my family."
+          "Set up my private Family board. Check prerequisites before asking about my family.",
+          "What is next on my connected Family Board?"
         ],
         "developerName": "Family Ops",
         "displayName": "Family Ops",
@@ -32,5 +34,5 @@
     "chugim"
   ],
   "name": "family-ops",
-  "version": "0.2.0"
+  "version": "0.3.0"
 }

@@ -3,7 +3,7 @@
     "boundary": "compiled HTTP/MCP/D1 plus fictional browser workflow, stored-state and independent source/visual review",
     "realCustomerOrNativeInstallation": false,
     "scope": "I23 C1-C6 manual organizer and manual-only adult access",
-    "sourceRevision": "852398e63fcf302d505bd5b4342ff55e9fbda29e"
+    "sourceRevision": "f5c076ac76113c8c0a8a9bad2747ca19e0f57257"
   },
   "architecture": {
     "bundledMcpServer": false,
@@ -36,7 +36,7 @@
   "paymentEnforced": false,
   "pluginIdentity": {
     "name": "family-ops",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "readyForDistribution": false,
   "requiresLocalExecutor": true,
@@ -54,6 +54,7 @@
     ],
     "scope": "whole manual organizer only; source-derived contexts/settings excluded"
   },
-  "sourceRevision": "852398e63fcf302d505bd5b4342ff55e9fbda29e",
-  "submissionReady": false
+  "sourceRevision": "f5c076ac76113c8c0a8a9bad2747ca19e0f57257",
+  "submissionReady": false,
+  "ownerNativeManualItemAcceptance": "One existing-owner compatible-board save/readback/reload passed; independent buyer and other hosts remain unverified."
 }
